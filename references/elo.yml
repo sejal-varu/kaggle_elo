@@ -1,0 +1,17 @@
+name: elo
+channels:
+    - https://conda.anaconda.org/menpo
+    - conda-forge
+dependencies:
+    - python==3.6
+    - numpy
+    - pandas
+    - jupyter
+    - scipy
+    - flask
+    - pip:
+        - sqlalchemy==1.1.15
+        - pymysql
+        - click
+        - sshtunnel
+
